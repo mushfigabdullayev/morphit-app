@@ -1,0 +1,86 @@
+﻿MORPHIT — ÜÇÜNCÜ TƏRƏF KOMPONENTLƏRİ / THIRD-PARTY NOTICES
+
+Morphit-in öz kodu Mushfig Abdullayev-ə məxsusdur (LICENSE.txt). Morphit ilə birlikdə aşağıdakı üçüncü tərəf
+komponentləri verilir. Onlar Morphit-in lisenziyasına deyil, öz lisenziyalarına tabedir. Mühərriklər (Ghostscript,
+FFmpeg, 7-Zip, Tesseract) dəyişdirilmədən, ayrıca proqram kimi verilir və Morphit onları ayrıca proses kimi işə salır.
+Lisenziya mətnləri quraşdırma qovluğundakı "licenses" qovluğundadır.
+
+Morphit's own code belongs to Mushfig Abdullayev (LICENSE.txt). The third-party components below are delivered with
+Morphit and are governed by their own licences, not by Morphit's. The engines (Ghostscript, FFmpeg, 7-Zip, Tesseract)
+are delivered unmodified as separate programs, which Morphit runs as separate processes. The licence texts are in the
+"licenses" folder of the installation.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Ghostscript 10.08.0
+  Copyright (C) 2026 Artifex Software, Inc. All rights reserved.
+  Licence: GNU Affero General Public License v3.0 (AGPL-3.0)     licenses\Ghostscript-AGPL-3.0.txt
+  Location: engines\ghostscript
+  Source code: https://www.ghostscript.com/releases/gsdnld.html  ·  https://github.com/ArtifexSoftware/ghostpdl
+
+FFmpeg 9.0.2 ("essentials" build by Gyan Doshi)
+  Copyright (C) the FFmpeg developers.
+  Licence: GNU General Public License v3.0 (GPL-3.0); the build includes x264, x265, LAME, Opus, Vorbis, libvpx and
+  other libraries under their own licences, listed in the licence file.     licenses\FFmpeg-LICENSE.txt
+  Location: engines\ffmpeg
+  Source code: https://ffmpeg.org/download.html  ·  build: https://www.gyan.dev/ffmpeg/builds/
+
+7-Zip 26.03
+  7-Zip Copyright (C) 1999-2026 Igor Pavlov.
+  Licence: GNU LGPL 2.1 (most of the code), BSD 3-clause and BSD 2-clause (some parts), and the unRAR licence
+  restriction for the RAR code.     licenses\7-Zip-License.txt
+  Location: engines\7zip
+  Source code: https://www.7-zip.org
+
+Tesseract OCR 5.4.0 (with Leptonica 1.84.1)
+  Copyright the Tesseract OCR authors (Google and contributors); Leptonica Copyright (C) Dan Bloomberg.
+  Licence: Apache License 2.0 (Tesseract); BSD 2-clause (Leptonica).     licenses\Apache-2.0.txt
+  The Windows build also contains libraries (in engines\tesseract) under their own open-source licences, among them
+  cairo and pango (LGPL 2.1 / MPL 1.1), libarchive (BSD), OpenSSL (Apache 2.0), zlib, libpng, libjpeg-turbo,
+  libtiff, libwebp, freetype, harfbuzz and ICU.
+  Location: engines\tesseract
+  Source code: https://github.com/tesseract-ocr/tesseract  ·  http://www.leptonica.org
+
+Tesseract trained models (tessdata_best: aze, eng, rus, tur)
+  Copyright the Tesseract OCR authors.
+  Licence: Apache License 2.0     licenses\Apache-2.0.txt
+  Source: https://github.com/tesseract-ocr/tessdata_best
+
+Magick.NET 14.17.2 (with ImageMagick 7.1.2)
+  Copyright Dirk Lemstra; ImageMagick Copyright ImageMagick Studio LLC.
+  Licence: Apache License 2.0 (Magick.NET); ImageMagick License (ImageMagick); the bundled image libraries under
+  their own licences, all listed in the notice file.     licenses\Magick.NET-Notice.txt
+  Source code: https://github.com/dlemstra/Magick.NET  ·  https://imagemagick.org
+
+PDFsharp 6.2.4
+  © 2026 empira Software GmbH.
+  Licence: MIT     licenses\PDFsharp-MIT.txt
+  Source code: https://github.com/empira/PDFsharp
+
+.NET 10.0.14 runtime and Windows Presentation Foundation (included in the installation)
+  Copyright (c) .NET Foundation and Contributors.
+  Licence: MIT     licenses\dotnet-runtime-MIT.txt, licenses\WPF-MIT.txt
+  Their own third-party notices: licenses\dotnet-runtime-ThirdPartyNotices.txt
+  Source code: https://github.com/dotnet/runtime  ·  https://github.com/dotnet/wpf
+
+Microsoft Visual C++ runtime (vcruntime140.dll, vcruntime140_1.dll, msvcp140.dll, next to Ghostscript)
+  Copyright (c) Microsoft Corporation.
+  Redistributed with Ghostscript as Microsoft permits for the Visual C++ Redistributable files.
+
+Feather icons (the settings gear icon)
+  Copyright (c) 2013-2017 Cole Bemis.
+  Licence: MIT     licenses\Feather-MIT.txt
+  Source: https://github.com/feathericons/feather
+
+-------------------------------------------------------------------------------------------------------------------
+
+Mənbə kodu təklifi / Source code offer
+  GPL-3.0 və AGPL-3.0 altında verilən komponentlərin (FFmpeg, Ghostscript) və LGPL komponentlərin (7-Zip və
+  Tesseract-in LGPL kitabxanaları) Morphit ilə verilən versiyalarının tam mənbə kodu yuxarıdakı ünvanlarda açıqdır.
+  Müəllif həmin mənbə kodunu, Morphit-in bu versiyasının paylandığı tarixdən ən azı üç il ərzində, istəyən hər kəsə
+  yalnız daşıma xərcini aşmayan haqla və ya pulsuz verir.
+
+  The complete source code of the versions delivered with Morphit of the components under GPL-3.0 and AGPL-3.0
+  (FFmpeg, Ghostscript) and under the LGPL (7-Zip and Tesseract's LGPL libraries) is available at the addresses above.
+  The Author provides that source code to anyone who asks, free of charge or for no more than the cost of delivery,
+  for at least three years from the date this version of Morphit was distributed.

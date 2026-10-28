@@ -1,0 +1,105 @@
+﻿MORPHIT — PROQRAM TƏMİNATI ÜZRƏ LİSENZİYA MÜQAVİLƏSİ
+Copyright © 2026 Mushfig Abdullayev. Bütün hüquqlar qorunur.
+
+Morphit-i quraşdırmaqla, surətini çıxarmaqla və ya istifadə etməklə bu müqavilənin şərtlərini qəbul etmiş olursunuz.
+Şərtlərlə razı deyilsinizsə, Morphit-i quraşdırmayın və istifadə etməyin.
+
+1. Mülkiyyət
+   Morphit proqramı (bundan sonra "Proqram"), o cümlədən onun mənbə və obyekt kodu, dizaynı, istifadəçi interfeysi,
+   qrafikası, mətnləri və sənədləri Mushfig Abdullayev-ə (bundan sonra "Müəllif") məxsusdur və müəlliflik hüququ ilə
+   qorunur. Proqram satılmır: ondan istifadə üçün lisenziya verilir. Bu müqavilədə açıq verilməyən bütün hüquqlar
+   Müəllifdə qalır.
+
+2. İstifadə hüququ
+   Proqramı Müəllifdən və ya onun icazəsi ilə qanuni yolla əldə etmiş şəxsə Proqramı öz kompüterlərində quraşdırmaq və
+   öz işi üçün istifadə etmək üçün qeyri-müstəsna, başqasına ötürülə bilməyən, ləğv edilə bilən hüquq verilir.
+
+3. Qadağalar
+   Müəllifin əvvəlcədən yazılı icazəsi olmadan aşağıdakılar qadağandır:
+   a) Proqramın surətini çıxarmaq (quraşdırma və bir ehtiyat nüsxə istisna olmaqla), onu yaymaq, satmaq, icarəyə və ya
+      istifadəyə vermək, internetdə və ya şəbəkədə paylaşmaq;
+   b) Proqramı dəyişdirmək, tərcümə etmək, ondan törəmə əsər yaratmaq;
+   c) Proqramı dekompilyasiya etmək, disassembly etmək və ya başqa yolla tərs mühəndisliyə məruz qoymaq, qanunun buna
+      açıq icazə verdiyi hallar istisna olmaqla;
+   d) Proqramdakı müəllif, copyright və lisenziya qeydlərini silmək, gizlətmək və ya dəyişdirmək;
+   e) Proqramı və ya onun hər hansı hissəsini, o cümlədən dizaynını və interfeysini, başqa məhsulun tərkibində istifadə
+      etmək və ya onu təkrarlayan məhsul yaratmaq.
+
+4. Üçüncü tərəf komponentləri
+   Proqramla birlikdə ayrıca proqramlar və kitabxanalar kimi verilən üçüncü tərəf komponentləri (Ghostscript, FFmpeg,
+   7-Zip, Tesseract, ImageMagick/Magick.NET, PDFsharp, .NET və başqaları) bu müqaviləyə deyil, öz lisenziyalarına
+   tabedir. Onların siyahısı və lisenziyaları THIRD-PARTY-NOTICES.txt faylında və "licenses" qovluğundadır. Bu
+   müqavilədəki heç bir şərt həmin lisenziyaların sizə verdiyi hüquqları məhdudlaşdırmır.
+
+5. Zəmanətdən imtina
+   Proqram "olduğu kimi" verilir. Qanunun icazə verdiyi ən geniş həddə Müəllif heç bir açıq və ya nəzərdə tutulan
+   zəmanət vermir, o cümlədən Proqramın xətasız işləyəcəyinə və müəyyən məqsədə uyğun olacağına dair.
+
+6. Məsuliyyətin məhdudlaşdırılması
+   Qanunun icazə verdiyi ən geniş həddə Müəllif Proqramın istifadəsi və ya istifadə edilə bilməməsi nəticəsində
+   yaranan heç bir birbaşa, dolayı, təsadüfi və ya nəticə etibarilə dəyən zərərə, o cümlədən məlumatların itməsinə görə
+   məsuliyyət daşımır.
+
+7. Xitam
+   Bu müqavilənin şərtləri pozulduqda lisenziya avtomatik olaraq xitam olunur. Bu halda Proqramın bütün nüsxələri
+   silinməlidir. 1, 3, 5, 6 və 8-ci bəndlər xitamdan sonra da qüvvədə qalır.
+
+8. Tətbiq olunan hüquq
+   Bu müqavilə Azərbaycan Respublikasının qanunvericiliyinə tabedir.
+
+İcazə və digər suallar üçün Müəllifə müraciət edin: Mushfig Abdullayev.
+
+
+===============================================================================================================
+
+
+MORPHIT — SOFTWARE LICENSE AGREEMENT
+Copyright © 2026 Mushfig Abdullayev. All rights reserved.
+
+(English translation. If the two texts differ, the Azerbaijani text above prevails.)
+
+By installing, copying or using Morphit you accept the terms of this agreement. If you do not agree, do not install
+or use Morphit.
+
+1. Ownership
+   Morphit (the "Software"), including its source and object code, design, user interface, graphics, texts and
+   documentation, belongs to Mushfig Abdullayev (the "Author") and is protected by copyright. The Software is licensed,
+   not sold. All rights not expressly granted in this agreement remain with the Author.
+
+2. Licence to use
+   A person who obtained the Software lawfully from the Author or with the Author's permission is granted a
+   non-exclusive, non-transferable, revocable right to install the Software on their own computers and use it for their
+   own work.
+
+3. Restrictions
+   Without the Author's prior written permission you may not:
+   a) copy the Software (except for installation and one backup copy), distribute, sell, rent, lend or share it over
+      the internet or a network;
+   b) modify or translate the Software or create derivative works of it;
+   c) decompile, disassemble or otherwise reverse engineer the Software, except where the law expressly permits it;
+   d) remove, hide or alter any author, copyright or licence notice in the Software;
+   e) use the Software or any part of it, including its design and interface, in another product, or create a product
+      that copies it.
+
+4. Third-party components
+   Third-party components delivered with the Software as separate programs and libraries (Ghostscript, FFmpeg, 7-Zip,
+   Tesseract, ImageMagick/Magick.NET, PDFsharp, .NET and others) are governed by their own licences, not by this
+   agreement. They are listed, with their licences, in THIRD-PARTY-NOTICES.txt and the "licenses" folder. Nothing in
+   this agreement limits the rights those licences give you.
+
+5. No warranty
+   The Software is provided "as is". To the fullest extent permitted by law the Author gives no warranty of any kind,
+   express or implied, including that the Software will work without errors or be fit for a particular purpose.
+
+6. Limitation of liability
+   To the fullest extent permitted by law the Author is not liable for any direct, indirect, incidental or
+   consequential damage, including loss of data, arising from the use of or inability to use the Software.
+
+7. Termination
+   This licence ends automatically if its terms are broken; all copies of the Software must then be deleted. Sections
+   1, 3, 5, 6 and 8 survive termination.
+
+8. Governing law
+   This agreement is governed by the laws of the Republic of Azerbaijan.
+
+For permissions and other questions contact the Author: Mushfig Abdullayev.
