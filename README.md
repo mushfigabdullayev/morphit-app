@@ -7,13 +7,16 @@
 Hold <kbd>Ctrl</kbd>, drag a file, let go on the format you want. That's it.
 
 [![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-Morphit%201.4.0-FFB547?style=for-the-badge&logo=windows&logoColor=black)](../../releases/latest)
+[![Website](https://img.shields.io/badge/Website-gns753.github.io%2Fmorphit--app-1A1B1F?style=for-the-badge)](https://gns753.github.io/morphit-app/)
 
 ![Platform](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows)
 ![Offline](https://img.shields.io/badge/100%25-offline-3DD68C?style=flat-square)
 ![No account](https://img.shields.io/badge/no%20account-no%20telemetry-lightgrey?style=flat-square)
 ![Languages](https://img.shields.io/badge/languages-EN%20%C2%B7%20AZ%20%C2%B7%20TR%20%C2%B7%20RU-512BD4?style=flat-square)
 
-<img src="docs/screenshots/hero-orbit.png" alt="The Morphit orbit: a Word file's choices, a picture's tools, a PDF's rarer tools" width="100%">
+<img src="docs/media/demo.gif" alt="Holding Ctrl, dragging a Word file a little, the orbit opening and letting go on PDF: the PDF appears next to the original" width="100%">
+
+<sub>Six seconds, real speed. [Watch the 20-second film](https://gns753.github.io/morphit-app/) with sound.</sub>
 
 </div>
 
@@ -26,6 +29,7 @@ Hold <kbd>Ctrl</kbd>, drag a file, let go on the format you want. That's it.
 - [Features](#features)
 - [What it converts](#what-it-converts)
 - [Privacy](#privacy)
+- [For IT departments](#for-it-departments)
 - [Download and install](#download-and-install)
 - [Using Morphit](#using-morphit)
 - [Command line](#command-line)
@@ -47,6 +51,8 @@ uploading a confidential document to a website. Morphit removes all of that:
 - **Results land next to the original.** The original is never changed or overwritten.
 
 ## How it works
+
+<p align="center"><img src="docs/screenshots/hero-orbit.png" alt="The Morphit orbit: a Word file's choices, a picture's tools, a PDF's rarer tools" width="100%"></p>
 
 1. **Point at a file** in Explorer, on the desktop or in an Outlook e-mail.
 2. **Hold <kbd>Ctrl</kbd> and drag it a little** — the *orbit* opens instantly around the cursor.
@@ -170,6 +176,49 @@ The route is found automatically, through intermediate formats when needed (e.g.
 - **Office safety.** Macros forced off, files opened read-only, password-protected files fail fast instead of opening
   a dialog.
 
+### Network code doesn't even compile
+
+Every .NET network API (`HttpClient`, `WebClient`, `Socket`, `TcpClient`, `Dns`, WebSockets and more) is on Morphit's
+banned-API list. One line that could upload a file and the build stops:
+
+```text
+var http = new HttpClient();
+
+error RS0030: The symbol 'HttpClient' is banned in this project: Morphit works offline: files never leave the PC
+```
+
+A test also scans Morphit's own assemblies for network code, and the bundled engines are only ever given local files.
+
+**Check it yourself:**
+
+1. Open **Resource Monitor → Network** and convert a few files: `Morphit.exe` never appears.
+2. Block Morphit in **Windows Defender Firewall**: every feature keeps working.
+3. Compare the installer's SHA-256 with the one in the release notes: `Get-FileHash .\Morphit.Setup.exe`.
+
+## For IT departments
+
+One installer with every engine inside; nothing is downloaded during or after installation, and there is no update
+check to allow through a proxy.
+
+```bat
+:: every user on the PC (run elevated)
+Morphit.Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /ALLUSERS
+
+:: the signed-in user only, no administrator rights
+Morphit.Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /CURRENTUSER
+
+:: choose shortcuts and start-up (desktopicon, startmenuicon, autostart)
+Morphit.Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /TASKS="startmenuicon,autostart"
+```
+
+| Question | Answer |
+|---|---|
+| What does it install? | The app, `morphit-cli.exe`, and Ghostscript, FFmpeg, 7-Zip, Tesseract OCR and the .NET 10 runtime it uses |
+| Where is user data? | `%APPDATA%\Morphit` (settings, history, logs); nothing outside the PC |
+| Does it touch Office? | It drives the installed Office read-only, with macros off, and never closes or changes open documents |
+| How do updates work? | Run the new Setup over the old one, silently if you like; settings and history are kept |
+| Security reports | See [SECURITY.md](SECURITY.md) |
+
 ## Download and install
 
 1. Download **`Morphit.Setup.exe`** from the [latest release](../../releases/latest).
@@ -240,7 +289,7 @@ Only for Word, Excel and PowerPoint conversions. Pictures, PDF, video, audio, ar
 
 ## Feedback
 
-Found a bug or missing a format? [Open an issue](../../issues/new) — a short description, the file type and, if
+Found a bug or missing a format? [Open an issue](../../issues/new/choose) — a short description, the file type and, if
 possible, a screenshot help a lot. The log folder (Settings → **Logs**) is useful for errors.
 
 ## License

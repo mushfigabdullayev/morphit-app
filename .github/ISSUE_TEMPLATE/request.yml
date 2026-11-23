@@ -1,0 +1,16 @@
+name: Format or tool request
+description: A format, conversion or tool you need in the orbit.
+labels: [request]
+body:
+  - type: input
+    id: from-to
+    attributes:
+      label: From → to
+      placeholder: e.g. PPTX → MP4, PDF → PDF/A, compare two Word files
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How often, and for what?
+      description: A sentence about the work it would save helps decide what comes first.

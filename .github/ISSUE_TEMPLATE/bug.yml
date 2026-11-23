@@ -1,0 +1,30 @@
+name: Bug report
+description: Something went wrong with a conversion, the orbit or the tray panel.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: input
+    id: types
+    attributes:
+      label: File type(s)
+      placeholder: e.g. DOCX → PDF, HEIC → JPG, 200 MB MP4 → Shrink
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Morphit and Windows version
+      placeholder: e.g. Morphit 1.4.0, Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log or screenshot
+      description: Settings → Logs opens the log folder. Remove anything confidential before you paste it. Please never attach confidential files.
