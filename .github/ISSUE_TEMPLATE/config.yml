@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Questions and ideas
-    url: https://github.com/gns753/morphit-app/discussions
+    url: https://github.com/mushfigabdullayev/morphit-app/discussions
     about: Ask how to do something, or share a recipe.
   - name: Security issue
-    url: https://github.com/gns753/morphit-app/security/advisories/new
+    url: https://github.com/mushfigabdullayev/morphit-app/security/advisories/new
     about: Please report vulnerabilities privately, not in a public issue.

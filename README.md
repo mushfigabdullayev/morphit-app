@@ -7,7 +7,7 @@
 Hold <kbd>Ctrl</kbd>, drag a file, let go on the format you want. That's it.
 
 [![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-Morphit%201.4.0-FFB547?style=for-the-badge&logo=windows&logoColor=black)](../../releases/latest)
-[![Website](https://img.shields.io/badge/Website-gns753.github.io%2Fmorphit--app-1A1B1F?style=for-the-badge)](https://gns753.github.io/morphit-app/)
+[![Website](https://img.shields.io/badge/Website-mushfigabdullayev.github.io%2Fmorphit--app-1A1B1F?style=for-the-badge)](https://mushfigabdullayev.github.io/morphit-app/)
 
 ![Platform](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows)
 ![Offline](https://img.shields.io/badge/100%25-offline-3DD68C?style=flat-square)
@@ -16,7 +16,7 @@ Hold <kbd>Ctrl</kbd>, drag a file, let go on the format you want. That's it.
 
 <img src="docs/media/demo.gif" alt="Holding Ctrl, dragging a Word file a little, the orbit opening and letting go on PDF: the PDF appears next to the original" width="100%">
 
-<sub>Six seconds, real speed. [Watch the 20-second film](https://gns753.github.io/morphit-app/) with sound.</sub>
+<sub>Six seconds, real speed. [Watch the 20-second film](https://mushfigabdullayev.github.io/morphit-app/) with sound.</sub>
 
 </div>
 
