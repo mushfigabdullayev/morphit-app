@@ -201,6 +201,9 @@ One installer with every engine inside; nothing is downloaded during or after in
 check to allow through a proxy.
 
 ```bat
+:: with WinGet, for every user on the PC
+winget install morphit --scope machine --silent
+
 :: every user on the PC (run elevated)
 Morphit.Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /ALLUSERS
 
@@ -221,6 +224,17 @@ Morphit.Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /TASKS="startmenuicon,
 
 ## Download and install
 
+**With WinGet** (Windows 10 1809 and later, Windows 11):
+
+```powershell
+winget install morphit
+```
+
+Add `--scope user` to install for yourself only without administrator rights, or `--scope machine` for every user.
+Later updates come with `winget upgrade morphit`.
+
+**Or with the installer:**
+
 1. Download **`Morphit.Setup.exe`** from the [latest release](../../releases/latest).
 2. Run it. Installing *for me only* needs no administrator rights. Accept the licence and choose whether Morphit
    starts with Windows.
@@ -233,7 +247,7 @@ conversions. Everything else is included.
 > *Unknown publisher*. Choose **More info → Run anyway**. You can check the download against the SHA-256 published
 > with each release.
 
-**Updating:** run the new Setup over the old one — your settings and history are kept.
+**Updating:** `winget upgrade morphit`, or run the new Setup over the old one — your settings and history are kept.
 **Uninstalling:** Settings → Apps → Installed apps → Morphit.
 
 ## Using Morphit

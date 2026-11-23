@@ -56,7 +56,7 @@
           </a>
           <a class="btn btn--quiet" href="#offline">Check the offline claim</a>
         </div>
-        <p class="hero__terms">Free for Windows 10 and 11. Version 1.4.0, 184 MB.</p>
+        <p class="hero__terms">Free for Windows 10 and 11, or <code class="cmd">winget install morphit</code></p>
       </div>
     </div>
     <figure class="film" data-loop>
@@ -152,11 +152,11 @@ Morphit works offline: files never leave the PC</span></code></pre>
         <p class="lead">Every engine is inside; nothing is fetched afterwards.</p>
       </div>
       <div>
-        <pre class="code" tabindex="0" aria-label="Silent install commands"><code>:: every user (elevated)
-Morphit.Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /ALLUSERS
+        <pre class="code" tabindex="0" aria-label="Silent install commands"><code>:: WinGet, every user
+winget install morphit --scope machine --silent
 
-:: this user, no admin rights
-Morphit.Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /CURRENTUSER</code></pre>
+:: or the installer
+Morphit.Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /ALLUSERS</code></pre>
         <dl class="it__facts">
           <div><dt>Engines included</dt><dd>Ghostscript, FFmpeg, 7-Zip, Tesseract OCR, .NET 10.</dd></div>
         </dl>
