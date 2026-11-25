@@ -5,7 +5,7 @@ off, and never overwrites an original.
 
 ## Reporting a vulnerability
 
-Please report it privately through [GitHub's private vulnerability reporting](https://github.com/mushfigabdullayev/morphit-app/security/advisories/new),
+Please report it privately through [GitHub's private vulnerability reporting](https://github.com/tevrion-tech/morphit-app/security/advisories/new),
 not in a public issue. Include the Morphit version, the Windows version and the steps to reproduce. Please do not send
 confidential files; a minimal sample file is enough.
 
